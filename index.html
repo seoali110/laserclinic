@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laser Clinic</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+         header {
+            background-color: #FFFF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s ease;
+        }
+
+        section {
+            padding: 50px;
+            margin-top: 60px; /* Adjust margin to accommodate the fixed header */
+        }
+
+        /* Add a shadow to the header on scroll */
+        header.scrolled {
+            background-color: #ffff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .map-container {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+        }
+
+        .map-container iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        .card {
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 20px rgba(0, 123, 255, 0.8), 0 0 30px rgba(0, 123, 255, 0.8);
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: #333;
+            /* Adjust color as needed */
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #666;
+            /* Adjust color as needed */
+            line-height: 1.4;
+        }
+
+        /* Custom styles */
+        .blue-header a {
+            color: white;
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+
+        .blue-header {
+            background-color: #346cdb;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+          
+        }
+    </style>
+</head>
+
+<body>
+   
+  
+    <!-- Blue Header -->
+    <div class="blue-header container-fluid">
+        <h1>Laser Hair Removal Vaughan</h1>
+        <p>Your Path to Smooth, Hair-Free Skin</p>
+    </div>
+
+    <!-- Body Content -->
+    <div class="container mt-4 p-20">
+       
+            <h2>Achieving Optimal Results with Laser Hair Removal</h2>
+            <p>Laser hair removal is a highly effective method for achieving long-lasting hair reduction and smooth skin. At Laser Hair Removal Vaughan, we want you to get the most out of your laser hair removal sessions. Here's how you can achieve optimal results:</p>
+    
+            <p>1. Schedule a Consultation: Before starting your laser hair removal journey, schedule a consultation with our experienced professionals. During this session, we assess your skin type, hair color, and medical history to tailor the treatment plan to your unique needs.</p>
+    
+            <p>2. Follow Pre-Treatment Guidelines: Adhere to pre-treatment guidelines provided by our clinic. This may include avoiding sun exposure, refraining from waxing or plucking, and shaving the treatment area a day before your session. These guidelines ensure the effectiveness of the laser on hair follicles.</p>
+    
+            <p>3. Be Consistent with Sessions: Laser hair removal is most effective when performed in a series of sessions. Follow the recommended schedule outlined by our professionals. Consistency is key to target hair in different growth phases and achieve comprehensive results.</p>
+    
+            <p>4. Communicate Openly: Inform our professionals about any changes in your health or medications. Open communication allows us to adjust the treatment plan if needed and ensures your safety and comfort throughout the process.</p>
+        
+    
+            <h2>Expert Tips for Optimal Laser Hair Removal Results</h2>
+            <p>Maximize the benefits of laser hair removal with these expert tips from <a href="https://bfancy.ca/">Laser Hair Removal Vaughan</a>:</p>
+    
+            <h3>Stay Sun-Smart:</h3>
+            <p>Avoid excessive sun exposure before and after your sessions. Use sunscreen to protect treated areas, as sunburn can affect the success of the treatment.</p>
+    
+            <h3>Patience is Key:</h3>
+            <p>Results may not be immediate, and multiple sessions are required for optimal outcomes. Be patient and trust the process for long-term hair reduction.</p>
+    
+            <h3>Avoid Irritants:</h3>
+            <p>Avoid using harsh skincare products or irritants on treated areas. Gentle skincare promotes healing and minimizes the risk of adverse reactions.</p>
+    
+            <h3>Post-Treatment Care:</h3>
+            <p>Follow post-treatment care instructions provided by our clinic. This may include avoiding hot baths, strenuous exercise, or certain products to enhance recovery.</p>
+        
+            <h2>Experience the Confidence of Smooth Skin</h2>
+            <p>At Laser Hair Removal Vaughan, our goal is to help you achieve the confidence that comes with smooth, hair-free skin. Follow these tips and trust our experienced team to guide you through a personalized laser hair removal journey.</p>
+    
+            <p>Contact us today to schedule your consultation and begin the path to optimal results with Laser Hair Removal Vaughan.</p>
+     
+    
+      
+       </div>
+
+    <!-- NAP Information -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Contact No</h5>
+                        <p class="card-text">+1 905-832-3895</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text"> bfancylaser@gmail.com</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Address</h5>
+                        <p class="card-text">
+                            1801 Rutherford, Vaughan, Ontario</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map  -->
+    <!--Google map-->
+    <div class="container mt-5">
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5755.503121716983!2d-79.492644!3d43.840249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b294aa699be05%3A0x28afb92b8e5e9f88!2s1801%20Rutherford%20Rd%2C%20Concord%2C%20ON%20L4K%205R7%2C%20Canada!5e0!3m2!1sen!2sus!4v1710236897545!5m2!1sen!2sus"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!--Google Maps-->
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        // Add a class to the header when scrolling
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 0);
+        });
+    </script>
+</body>
+
+</html>
